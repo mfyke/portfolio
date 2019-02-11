@@ -1,7 +1,7 @@
 # portfolioHW
 
 ## Live Link 
- - https://mfyke.github.io/portfolioHW/
+ - https://mfyke.github.io/portfolio/
 
 ## Requirements
 

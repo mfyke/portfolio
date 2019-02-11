@@ -248,3 +248,16 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
+#emailz {
+    color: #008f11;
+}
+
+#profilePic {
+    max-width:50%;
+    max-height:50%;
+}
+
+#bodyText {
+    text-align: left;
+}

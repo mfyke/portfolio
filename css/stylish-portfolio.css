@@ -254,10 +254,19 @@ footer {
 }
 
 #profilePic {
-    max-width:50%;
-    max-height:50%;
+    max-width:62%;
+    max-height:62%;
 }
 
 #bodyText {
     text-align: left;
+}
+
+#buttonDiv {
+    padding-bottom: 3em;
+}
+
+.hideButton {
+    background-color: #008f11;
+    color: #fff
 }

@@ -98,16 +98,6 @@
                 <div class="col-lg-12 text-center">
                     <h2>Porfolio</h2>
                     <hr class="small">
-                    <div id="buttonDiv">
-                        <div onClick="showAll()" class="btn hideButton">All</div>
-                        <div onClick="showReact()" class="btn hideButton">React</div>
-                        <div onClick="showMongodb()" class="btn hideButton">MongoDB</div>
-                        <div onClick="showSql()" class="btn hideButton">SQL</div>
-                        <div onClick="showNode()" class="btn hideButton">Node</div>
-                        <div onClick="showApi()" class="btn hideButton">API</div>
-                        <div onClick="showJquery()" class="btn hideButton">jQuery</div>
-                        <div onClick="showFullstack()" class="btn hideButton">Full Stack</div>
-                    </div>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="portfolio-item api jquery">
@@ -330,40 +320,7 @@
         }
     });
 
-    function hideAll(){
-        $('.portfolio-item').hide(); 
-    }
-    function showAll() {
-        $('.portfolio-item').show();
-    }
-    function showReact() {
-        hideAll();
-        $('.react').show();
-    }
-    function showMongodb() {
-        hideAll();
-        $('.mongodb').show();
-    }
-    function showSql() {
-        hideAll();
-        $('.sql').show();
-    }
-    function showNode() {
-        hideAll();
-        $('.node').show();
-    }
-    function showApi() {
-        hideAll();
-        $('.api').show();
-    }
-    function showJquery() {
-        hideAll();
-        $('.jquery').show();
-    }
-    function showFullstack(){
-        hideAll();
-        $('.fullstack').show();
-    }
+  
     </script>
 
 </body>

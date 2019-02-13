@@ -268,5 +268,6 @@ footer {
 
 .hideButton {
     background-color: #008f11;
-    color: #fff
+    color: #fff;
+    margin-bottom: 1em;
 }
